@@ -1,4 +1,7 @@
 $(document).ready(function(){
+		$('#radio-back').click(function(){
+		$('.cube').css({'transform':'rotateY(0deg)','transform':'rotateX(0deg)'});
+	});
 	$('#radio-back').click(function(){
 		$('.cube').css({'transform':'rotateY(180deg)'});
 	});
